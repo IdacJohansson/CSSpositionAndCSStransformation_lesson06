@@ -95,7 +95,6 @@ body {
   max-width: 1126px;
   width: 100%;
   height: 496px;
-  border: #2f281e, solid;
 }
 
 .text-container {
@@ -104,7 +103,6 @@ body {
   max-width: 518px;
   width: 100%;
   height: 331px;
-  /* border: #2F281E, solid; */
 }
 
 .main-title {
@@ -137,7 +135,6 @@ body {
   left: 520px;
   width: 605px;
   height: auto;
-  /* border: #2F281E, solid; */
 }
 
 .dance-img {
@@ -209,25 +206,17 @@ body {
   font-size: 16px;
   font-family: "Poppins", sans-serif;
   font-weight: 700;
-  word-wrap: break-word;
 }
 
-/*Feature*/
+/*Feature - First container*/
 
-.feature-container {
-  /* position: relative;
-  top: 110px;
-  max-width: 2211px;
-  width: 100%;
-  height: 543px;
-  border: #dd2433, solid; */
+.first-container {
   position: relative;
   top: 100px;
   left: 145px;
   max-width: 1126px;
   width: 100%;
   height: 496px;
-  border: #2f281e, solid;
 }
 
 .feature-title {
@@ -328,4 +317,243 @@ body {
   left: 855px;
   top: 0px;
   position: absolute;
+}
+
+/*Effortless Validation - Second container*/
+
+.second-container {
+  position: relative;
+  left: 145px;
+  top: 130px;
+  max-width: 1110px;
+  width: 100%;
+  height: 574px;
+}
+
+.text-container-effortless {
+  position: absolute;
+  top: 26px;
+  max-width: 486px;
+  width: 100%;
+  height: 513px;
+}
+.small-text {
+  position: absolute;
+  margin: 0;
+  font-family: "Poppins", system-ui;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16px;
+}
+
+.main-titel {
+  position: absolute;
+  font-family: "Poppins", system-ui;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 36px;
+}
+.main-text {
+  position: absolute;
+  top: 103px;
+  font-family: "Poppins", system-ui;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.subheading {
+  font-family: "Poppins", system-ui;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 16px;
+}
+/*dela upp*/
+.accessory-title {
+  position: absolute;
+  top: 211px;
+}
+
+.alterationists-title {
+  position: absolute;
+  top: 326px;
+}
+
+.custom-design-title {
+  position: absolute;
+  top: 441px;
+}
+
+.sub-text-accessory {
+  position: absolute;
+  top: 249px;
+  font-family: "Poppins", system-ui;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16px;
+}
+
+.sub-text-alterationists {
+  position: absolute;
+  top: 364px;
+  font-family: "Poppins", system-ui;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16px;
+}
+.sub-text-custom-design {
+  position: absolute;
+  top: 479px;
+  font-family: "Poppins", system-ui;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16px;
+}
+
+.effortless-img {
+  position: absolute;
+  top: 3px;
+  right: 0px;
+  max-width: 520px;
+  width: 100%;
+  height: 574px;
+}
+
+/*Product Managers - Third container*/
+
+.third-container {
+  position: relative;
+  left: 145px;
+  top: 218px;
+  max-width: 1121px;
+  width: 100%;
+  height: 521px;
+}
+
+.manager-img {
+  position: absolute;
+  top: 0px;
+  max-width: 535px;
+  width: 100%;
+  height: 521px;
+}
+.text-container-product-manager {
+  position: absolute;
+  right: 0;
+  top: 49px;
+  max-width: 486px;
+  width: 100%;
+  height: 427px;
+}
+
+.list-container {
+  position: absolute;
+  top: 30px;
+  width: 450px;
+}
+
+.list-icon {
+  position: absolute;
+  left: 9px;
+}
+
+.first {
+  top: 211px;
+}
+
+.second {
+  top: 301px;
+}
+.third {
+  top: 383px;
+}
+
+.first-list-text {
+  position: absolute;
+  top: 211px;
+  left: 65px;
+  margin: 0;
+  font-family: "Poppins", system-ui;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.second-list-text {
+  position: absolute;
+  top: 293px;
+  left: 65px;
+  margin: 0;
+  font-family: "Poppins", system-ui;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.third-list-text {
+  position: absolute;
+  top: 375px;
+  left: 65px;
+  margin: 0;
+  font-family: "Poppins", system-ui;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+/**/
+
+.fourth-container {
+  position: relative;
+  left: 145px;
+  top: 304px;
+  max-width: 1110px;
+  width: 100%;
+  height: 609px;
+}
+
+.marketers-img {
+  position: absolute;
+  right: 0px;
+  max-width: 542px;
+  width: 100%;
+  height: 609px;
+}
+
+/**/
+
+.footer {
+  position: relative;
+  left: 145px;
+  top: 446px;
+  max-width: 1109px;
+  width: 100%;
+  height: 308px;
+  border-top: #979797 solid 0.5px;
+  border-bottom: #979797 solid 0.5px;
+}
+
+.logo-img-footer {
+  position: absolute;
+  top: 102px;
+  left: 13px;
+  max-width: 185.34px;
+  width: 100%;
+  height: 31.97px;
+}
+
+.first-list-footer {
+  position: absolute;
+  left: 324px;
+  top: 167px;
+  list-style: none;
+  font-family: "Poppins", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 35px;
 }

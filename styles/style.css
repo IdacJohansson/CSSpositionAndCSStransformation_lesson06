@@ -1,0 +1,331 @@
+body {
+  height: 100vh;
+}
+
+/*NAVIGATION*/
+
+.navigation {
+  position: relative;
+  height: 78px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navigation-box {
+  position: absolute;
+  left: 650px;
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+}
+
+.logo-img {
+  position: absolute;
+  left: 143.92px;
+  max-width: 185.34px;
+  width: 100%;
+  height: 31.97px;
+}
+
+.navigation-box li {
+  margin-right: 20px;
+}
+
+.navigation-box li a {
+  text-decoration: none;
+  color: #2f281e;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.button-box {
+  position: absolute;
+  left: 1029px;
+  display: flex;
+  align-items: center;
+}
+
+.sign-in-btn,
+.sign-up-btn {
+  width: 102px;
+  height: 46px;
+  border-radius: 4px;
+  border: 1px solid #bcd0e5;
+  background-color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.sign-up-btn {
+  background-color: #ff9900;
+  color: white;
+  margin-left: 10px;
+  border: none;
+}
+
+.sign-up-btn-text,
+.sign-in-btn-text {
+  margin: 0;
+  color: #173a56;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  text-align: center;
+}
+
+.sign-up-btn-text {
+  color: white;
+}
+
+.navigation-box li a:hover,
+.sign-in-btn:hover,
+.sign-up-btn:hover {
+  opacity: 0.8;
+}
+
+/*0.2 HEADER*/
+
+.header-container {
+  position: relative;
+  top: 30px;
+  left: 145px;
+  right: 129px;
+  max-width: 1126px;
+  width: 100%;
+  height: 496px;
+  border: #2f281e, solid;
+}
+
+.text-container {
+  position: absolute;
+  top: 83px;
+  max-width: 518px;
+  width: 100%;
+  height: 331px;
+  /* border: #2F281E, solid; */
+}
+
+.main-title {
+  position: absolute;
+  margin: 0px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 44px;
+  line-height: 54px;
+  color: #2f281e;
+  max-width: 518px;
+}
+
+.main-text {
+  position: absolute;
+  top: 121px;
+  max-width: 458px;
+  width: 100%;
+  height: 95px;
+  color: #544837;
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.img-container {
+  position: absolute;
+  top: 0px;
+  left: 520px;
+  width: 605px;
+  height: auto;
+  /* border: #2F281E, solid; */
+}
+
+.dance-img {
+  max-width: 605px;
+  width: 100%;
+  max-height: 496px;
+  height: 100%;
+}
+
+/*Header buttons*/
+
+.btn-container {
+  width: 366px;
+  height: 53px;
+  position: relative;
+  top: 361px;
+}
+
+.get-started-btn {
+  width: 175px;
+  height: 53px;
+  background-color: #ff9900;
+  border-radius: 4px;
+  border: #ff9900;
+}
+
+.watch-the-video-btn {
+  width: 161px;
+  height: 23px;
+  position: absolute;
+  left: 205px;
+  top: 15px;
+}
+
+.video-text {
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: #ff9900;
+  text-decoration: underline;
+}
+
+.get-started-text {
+  position: absolute;
+  top: 15px;
+  left: 41px;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  color: white;
+}
+
+/*Future button*/
+
+.sign-up-now-btn {
+  width: 175px;
+  height: 53px;
+  position: relative;
+  top: 400px;
+  border-style: none;
+  background-color: #ff9900;
+}
+
+.sign-up-now-text {
+  left: 34px;
+  top: 15px;
+  position: absolute;
+  color: white;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  word-wrap: break-word;
+}
+
+/*Feature*/
+
+.feature-container {
+  /* position: relative;
+  top: 110px;
+  max-width: 2211px;
+  width: 100%;
+  height: 543px;
+  border: #dd2433, solid; */
+  position: relative;
+  top: 100px;
+  left: 145px;
+  max-width: 1126px;
+  width: 100%;
+  height: 496px;
+  border: #2f281e, solid;
+}
+
+.feature-title {
+  position: absolute;
+  width: 539px;
+  right: 327px;
+  top: 0px;
+  margin: 0px;
+  text-align: center;
+  color: #2f281e;
+  font-size: 36px;
+  font-family: "Poppins", sans-serif;
+}
+
+.card-container {
+  position: absolute;
+  top: 162px;
+  width: 1095px;
+  height: 162px;
+}
+
+.card {
+  width: 1095px;
+  height: 204px;
+  position: relative;
+}
+
+.icon-container {
+  width: 240px;
+  height: 178px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+}
+
+.icon {
+  width: 51px;
+  height: 50px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: inline-flex;
+}
+
+.text-container-card {
+  width: 240px;
+  height: 98px;
+  left: 0px;
+  top: 80px;
+  position: absolute;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 13px;
+  display: inline-flex;
+}
+
+.main-title-card {
+  color: #2f281e;
+  font-size: 22px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
+.main-text-card {
+  width: 240px;
+  color: #544837;
+  font-size: 16px;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: 26px;
+}
+
+/*Dela upp */
+
+.icon-container-yellow {
+  width: 240px;
+  height: 178px;
+  left: 286px;
+  top: 0px;
+  position: absolute;
+}
+
+.icon-container-red {
+  width: 240px;
+  height: 178px;
+  left: 571px;
+  top: 0px;
+  position: absolute;
+}
+
+.icon-container-blue {
+  width: 240px;
+  height: 204px;
+  left: 855px;
+  top: 0px;
+  position: absolute;
+}

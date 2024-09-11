@@ -526,15 +526,15 @@ body {
 
 /**/
 
-.footer {
+footer {
   position: relative;
   left: 145px;
   top: 446px;
+  bottom: 83px;
   max-width: 1109px;
   width: 100%;
   height: 308px;
   border-top: #979797 solid 0.5px;
-  border-bottom: #979797 solid 0.5px;
 }
 
 .logo-img-footer {
@@ -546,7 +546,7 @@ body {
   height: 31.97px;
 }
 
-.first-list-footer {
+.footer-list-container {
   position: absolute;
   left: 324px;
   top: 167px;
@@ -556,4 +556,52 @@ body {
   font-style: normal;
   font-size: 16px;
   line-height: 35px;
+  padding-bottom: 50px;
+}
+
+.list-right {
+  left: 571px;
+  top: 167px;
+}
+
+.input-container {
+  position: relative;
+  left: 784px;
+  top: 102px;
+  max-width: 325px;
+  width: 100%;
+  max-height: 199px;
+  height: 100%;
+}
+
+.input-field {
+  position: absolute;
+  top: 91px;
+  max-width: 325px;
+  width: 100%;
+  max-height: 48px;
+  height: 100%;
+}
+
+.submit-btn {
+  position: absolute;
+  left: 0px;
+  top: 160px;
+  width: 131px;
+  height: 39px;
+  background-color: #ff9900;
+  border-style: none;
+  border-radius: 4px;
+}
+
+.btn-text-submit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+  font-family: "Poppins", system-ui;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 16px;
+  color: white;
 }

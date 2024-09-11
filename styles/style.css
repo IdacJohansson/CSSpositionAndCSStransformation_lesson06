@@ -40,11 +40,9 @@ body {
   font-size: 14px;
 }
 
-.button-box {
+.button-container {
   position: absolute;
   left: 1029px;
-  display: flex;
-  align-items: center;
 }
 
 .sign-in-btn,
@@ -97,44 +95,46 @@ body {
   height: 496px;
 }
 
-.text-container {
+.text-container-header {
   position: absolute;
-  top: 83px;
+  top: 113px;
   max-width: 518px;
   width: 100%;
-  height: 331px;
+  max-height: 331px;
+  height: 100%;
 }
 
-.main-title {
+.main-title-header {
   position: absolute;
   margin: 0px;
-  font-family: "Poppins", sans-serif;
-  font-weight: bold;
+  font-family: "Poppins", system-ui;
+  font-weight: 700;
+  font-style: normal;
   font-size: 44px;
   line-height: 54px;
   color: #2f281e;
   max-width: 518px;
 }
 
-.main-text {
+.main-text-header {
   position: absolute;
-  top: 121px;
+  top: 120px;
   max-width: 458px;
   width: 100%;
-  height: 95px;
+  max-height: 95px;
+  height: 100%;
   color: #544837;
   font-size: 18px;
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
+  font-family: "Poppins", system-ui;
+  font-weight: 300;
+  font-style: normal;
   line-height: 28px;
 }
 
 .img-container {
   position: absolute;
   top: 0px;
-  left: 520px;
-  width: 605px;
-  height: auto;
+  right: 0px;
 }
 
 .dance-img {
@@ -144,13 +144,11 @@ body {
   height: 100%;
 }
 
-/*Header buttons*/
-
 .btn-container {
+  position: absolute;
+  bottom: 0;
   width: 366px;
   height: 53px;
-  position: relative;
-  top: 361px;
 }
 
 .get-started-btn {
@@ -158,18 +156,18 @@ body {
   height: 53px;
   background-color: #ff9900;
   border-radius: 4px;
-  border: #ff9900;
+  border-style: none;
 }
 
 .watch-the-video-btn {
-  width: 161px;
-  height: 23px;
   position: absolute;
   left: 205px;
   top: 15px;
+  width: 161px;
+  height: 23px;
 }
 
-.video-text {
+.video-btn-text {
   font-size: 16px;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
@@ -187,69 +185,45 @@ body {
   color: white;
 }
 
-/*Future button*/
-
-.sign-up-now-btn {
-  width: 175px;
-  height: 53px;
-  position: relative;
-  top: 400px;
-  border-style: none;
-  background-color: #ff9900;
-}
-
-.sign-up-now-text {
-  left: 34px;
-  top: 15px;
-  position: absolute;
-  color: white;
-  font-size: 16px;
-  font-family: "Poppins", sans-serif;
-  font-weight: 700;
-}
-
 /*Feature - First container*/
 
-.first-container {
+.feauture-container {
   position: relative;
   top: 100px;
   left: 145px;
   max-width: 1126px;
   width: 100%;
-  height: 496px;
+  height: 543px;
 }
 
 .feature-title {
   position: absolute;
-  width: 539px;
-  right: 327px;
-  top: 0px;
-  margin: 0px;
+  left: 289px;
   text-align: center;
+  width: 539px;
+  margin: 0px;
   color: #2f281e;
+  font-family: "Poppins", system-ui;
+  font-weight: 700;
+  font-style: normal;
   font-size: 36px;
-  font-family: "Poppins", sans-serif;
 }
 
 .card-container {
   position: absolute;
   top: 162px;
-  width: 1095px;
-  height: 162px;
-}
-
-.card {
-  width: 1095px;
-  height: 204px;
-  position: relative;
+  max-width: 1095px;
+  width: 100%;
+  max-height: 162px;
+  height: 100%;
 }
 
 .icon-container {
-  width: 240px;
-  height: 178px;
+  position: absolute;
   left: 0px;
   top: 0px;
-  position: absolute;
+  width: 240px;
+  height: 178px;
 }
 
 .icon {
@@ -258,60 +232,85 @@ body {
   left: 0px;
   top: 0px;
   position: absolute;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-  display: inline-flex;
 }
 
 .text-container-card {
-  width: 240px;
+  max-width: 240px;
+  width: 100%;
+  max-height: 98px;
   height: 98px;
   left: 0px;
   top: 80px;
   position: absolute;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  gap: 13px;
-  display: inline-flex;
 }
 
 .main-title-card {
+  position: absolute;
+  top: 30px;
   color: #2f281e;
   font-size: 22px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Poppins", system-ui;
   font-weight: 600;
+  font-style: normal;
 }
 
 .main-text-card {
+  position: absolute;
+  top: 76px;
   width: 240px;
   color: #544837;
   font-size: 16px;
-  font-family: Poppins;
+  font-family: "Poppins", system-ui;
   font-weight: 500;
+  font-style: normal;
   line-height: 26px;
 }
 
-/*Dela upp */
+.sign-up-now-btn {
+  position: absolute;
+  left: 459px;
+  top: 420px;
+  width: 175px;
+  height: 53px;
+  border-style: none;
+  background-color: #ff9900;
+}
 
-.icon-container-yellow {
+.sign-up-now-text {
+  position: absolute;
+  left: 34px;
+  top: 15px;
+  color: white;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}
+
+.icon-container {
+  position: absolute;
+  top: 0px;
   width: 240px;
   height: 178px;
+}
+
+.icon {
+  position: absolute;
+  top: 30px;
+}
+
+.purple-icon {
+  left: 0px;
+}
+
+.yellow-icon {
   left: 286px;
-  top: 0px;
-  position: absolute;
 }
 
-.icon-container-red {
-  width: 240px;
-  height: 178px;
+.red-icon {
   left: 571px;
-  top: 0px;
-  position: absolute;
 }
 
-.icon-container-blue {
+.blue-icon {
   width: 240px;
   height: 204px;
   left: 855px;
@@ -321,67 +320,24 @@ body {
 
 /*Effortless Validation - Second container*/
 
-.second-container {
+.validation-container {
   position: relative;
   left: 145px;
-  top: 130px;
+  top: 220px;
   max-width: 1110px;
   width: 100%;
   height: 574px;
 }
 
-.text-container-effortless {
-  position: absolute;
-  top: 26px;
-  max-width: 486px;
-  width: 100%;
-  height: 513px;
-}
-.small-text {
-  position: absolute;
-  margin: 0;
-  font-family: "Poppins", system-ui;
-  font-weight: 500;
-  font-style: normal;
-  font-size: 16px;
-}
-
-.main-titel {
-  position: absolute;
-  font-family: "Poppins", system-ui;
-  font-weight: 700;
-  font-style: normal;
-  font-size: 36px;
-}
-.main-text {
-  position: absolute;
-  top: 103px;
-  font-family: "Poppins", system-ui;
-  font-weight: 500;
-  font-style: normal;
-  font-size: 16px;
-  line-height: 26px;
-}
-
-.subheading {
-  font-family: "Poppins", system-ui;
-  font-weight: 700;
-  font-style: normal;
-  font-size: 16px;
-}
-/*dela upp*/
 .accessory-title {
-  position: absolute;
   top: 211px;
 }
 
 .alterationists-title {
-  position: absolute;
   top: 326px;
 }
 
 .custom-design-title {
-  position: absolute;
   top: 441px;
 }
 
@@ -422,10 +378,10 @@ body {
 
 /*Product Managers - Third container*/
 
-.third-container {
+.managers-container {
   position: relative;
   left: 145px;
-  top: 218px;
+  top: 318px;
   max-width: 1121px;
   width: 100%;
   height: 521px;
@@ -436,14 +392,13 @@ body {
   top: 0px;
   max-width: 535px;
   width: 100%;
-  height: 521px;
+  max-height: 521px;
+  height: 100%;
 }
-.text-container-product-manager {
-  position: absolute;
+
+.text-container-position {
   right: 0;
   top: 49px;
-  max-width: 486px;
-  width: 100%;
   height: 427px;
 }
 
@@ -458,59 +413,49 @@ body {
   left: 9px;
 }
 
-.first {
+.first-icon-position {
   top: 211px;
 }
 
-.second {
+.second-icon-position {
   top: 301px;
 }
-.third {
+
+.third-icon-position {
   top: 383px;
 }
 
-.first-list-text {
+.list-text {
   position: absolute;
+  margin: 0;
+  font-family: "Poppins", system-ui;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.first-text-position {
   top: 211px;
   left: 65px;
-  margin: 0;
-  font-family: "Poppins", system-ui;
-  font-weight: 500;
-  font-style: normal;
-  font-size: 16px;
-  line-height: 26px;
 }
 
-.second-list-text {
-  position: absolute;
+.second-text-position {
   top: 293px;
   left: 65px;
-  margin: 0;
-  font-family: "Poppins", system-ui;
-  font-weight: 500;
-  font-style: normal;
-  font-size: 16px;
-  line-height: 26px;
 }
 
-.third-list-text {
-  position: absolute;
+.third-text-position {
   top: 375px;
   left: 65px;
-  margin: 0;
-  font-family: "Poppins", system-ui;
-  font-weight: 500;
-  font-style: normal;
-  font-size: 16px;
-  line-height: 26px;
 }
 
-/**/
+/*Marketers - Fourth container*/
 
-.fourth-container {
+.marketers-container {
   position: relative;
   left: 145px;
-  top: 304px;
+  top: 404px;
   max-width: 1110px;
   width: 100%;
   height: 609px;
@@ -521,15 +466,60 @@ body {
   right: 0px;
   max-width: 542px;
   width: 100%;
-  height: 609px;
+  max-height: 609px;
+  height: 100%;
 }
 
-/**/
+/*General text-css*/
+
+.small-text {
+  position: absolute;
+  margin: 0;
+  font-family: "Poppins", system-ui;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16px;
+}
+
+.main-titel {
+  position: absolute;
+  font-family: "Poppins", system-ui;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 36px;
+}
+.main-text {
+  position: absolute;
+  top: 103px;
+  font-family: "Poppins", system-ui;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.subheading {
+  font-family: "Poppins", system-ui;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 16px;
+  position: absolute;
+}
+
+.text-container {
+  position: absolute;
+  top: 26px;
+  max-width: 486px;
+  width: 100%;
+  height: 513px;
+}
+
+/*Footer*/
 
 footer {
   position: relative;
   left: 145px;
-  top: 446px;
+  top: 546px;
   bottom: 83px;
   max-width: 1109px;
   width: 100%;
@@ -559,7 +549,7 @@ footer {
   padding-bottom: 50px;
 }
 
-.list-right {
+.right-list-position {
   left: 571px;
   top: 167px;
 }
